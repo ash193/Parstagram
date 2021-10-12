@@ -112,13 +112,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CiK-wd-uBQ">
-                                                    <rect key="frame" x="8" y="335" width="291.5" height="28"/>
+                                                    <rect key="frame" x="8" y="335" width="59" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bT-a5-Xqp">
-                                                    <rect key="frame" x="307.5" y="335" width="98.5" height="28"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bT-a5-Xqp">
+                                                    <rect key="frame" x="89" y="335" width="98.5" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -130,7 +130,6 @@
                                                 <constraint firstItem="CiK-wd-uBQ" firstAttribute="baseline" secondItem="2bT-a5-Xqp" secondAttribute="baseline" id="6qt-th-Chj"/>
                                                 <constraint firstItem="CiK-wd-uBQ" firstAttribute="leading" secondItem="YIB-Mr-7Bl" secondAttribute="leading" constant="8" id="Bkt-3o-xji"/>
                                                 <constraint firstAttribute="trailing" secondItem="SdJ-ob-hAp" secondAttribute="trailing" constant="8" id="HRj-xm-fOB"/>
-                                                <constraint firstAttribute="trailing" secondItem="2bT-a5-Xqp" secondAttribute="trailing" constant="8" id="QIm-Uv-BRp"/>
                                                 <constraint firstItem="SdJ-ob-hAp" firstAttribute="leading" secondItem="YIB-Mr-7Bl" secondAttribute="leading" constant="8" id="dob-G7-rwi"/>
                                                 <constraint firstItem="2bT-a5-Xqp" firstAttribute="top" secondItem="SdJ-ob-hAp" secondAttribute="bottom" constant="8" id="h7r-Sa-Iz8"/>
                                                 <constraint firstItem="SdJ-ob-hAp" firstAttribute="top" secondItem="YIB-Mr-7Bl" secondAttribute="top" constant="8" id="lRX-bg-C0K"/>
@@ -181,7 +180,7 @@
                                     <outletCollection property="gestureRecognizers" destination="VKA-Az-fhC" appends="YES" id="YhH-C0-dsW"/>
                                 </connections>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5uZ-YO-xSC">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5uZ-YO-xSC">
                                 <rect key="frame" x="20" y="333" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
